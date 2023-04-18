@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+}
+header,
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: darkcyan;
+  padding: 3%;
+  font-size: larger;
+  font-weight: 600;
+}
+.header2 {
+  display: flex;
+  gap: 40px;
+  margin-right: 0%;
+  margin-left: auto;
+}

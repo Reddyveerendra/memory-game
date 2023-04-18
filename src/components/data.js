@@ -1,0 +1,1 @@
+export const Info = ["Baby", "Bird", "Bus", "Car", "Cat", "Cycle", "Dog", "Fire", "Fish", "Horse", "Leaf", "Sun", "Tree"]
