@@ -6,9 +6,10 @@ footer {
   display: flex;
   justify-content: space-evenly;
   background-color: darkcyan;
-  padding: 3%;
   font-size: larger;
   font-weight: 600;
+  text-align: center;
+  padding: 2%;
 }
 .header2 {
   display: flex;
