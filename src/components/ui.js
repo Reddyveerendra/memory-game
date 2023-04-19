@@ -7,7 +7,7 @@ export const Ui = () => {
     const [list, setList] = React.useState([])
     const [lost, setLost] = React.useState(false);
     const [showingNumbers, setShowingNumbers] = React.useState([]);
-    function numberGenerator(props) {
+    function numberGenerator() {
         const num = []
         while (num.length < 3 && list.length < 1) {
             const x = Math.floor(Math.random() * 50)
@@ -16,7 +16,6 @@ export const Ui = () => {
             }
         }
         let y = list[Math.floor(Math.random() * (list.length - 1) + 0)]
-        console.log("hi", y)
         while (num.length < 3) {
             const x = Math.floor(Math.random() * 50)
             if (!num.includes(x) && !list.includes(x)) {
@@ -26,7 +25,6 @@ export const Ui = () => {
                 }
             }
         }
-        console.log(num)
         shuffle(num);
     }
     function handleClick(e) {
