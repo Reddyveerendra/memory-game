@@ -9,7 +9,7 @@ export const Ui = () => {
     const [showingNumbers, setShowingNumbers] = React.useState([]);
     function numberGenerator() {
         const num = []
-        while (num.length < 3 && list.length < 1) {
+        while (num.length < 3 && list.length < 3) {
             const x = Math.floor(Math.random() * 50)
             if (!num.includes(x) && !list.includes(x)) {
                 num.push(x)
